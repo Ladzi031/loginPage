@@ -1,0 +1,48 @@
+header {
+display: flex;
+}
+#name {
+    color: rgb(73, 73, 217);
+    font-size:xx-large;
+    font-family:Verdana;
+    font-weight:lighter;
+}
+span {
+    color: white;
+    background-color: rgb(73, 73, 217);
+    border-radius: 5%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+
+
+}
+main div {
+    width: 50%;
+}
+
+#text {
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    font-size:xx-large;
+    font-weight: 200;
+}
+label {
+    display: block;
+}
+footer {
+    /*find way to put the footer at the bottom*/
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium';
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+}
+footer a {
+    
+    text-decoration: none;
+}
