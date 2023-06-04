@@ -1,15 +1,19 @@
+
+body {
+    background-color: rgb(233, 233, 233);
+}
 header {
 display: flex;
 }
 #name {
-    color: rgb(73, 73, 217);
+    color: #0066cc;
     font-size:xx-large;
     font-family:Verdana;
     font-weight:lighter;
 }
 span {
     color: white;
-    background-color: rgb(73, 73, 217);
+    background-color: #0066cc;
     border-radius: 5%;
 }
 main {
@@ -17,13 +21,96 @@ main {
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-
-
 }
 main div {
-    width: 50%;
+    width: fit-content;
 }
-
+main #form {
+    width: 40vh;
+}
+form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#form {
+    background-color: white;
+    border: none;
+}
+label {
+    padding-left: 5%;
+    color: grey;
+    font-family: Verdana;
+    font-size: small;
+    font-weight: 600;
+}
+a {    
+    text-decoration: none;
+}
+input {
+    margin: 5%;
+    margin-top: 1%;
+    height: 2vh;
+}
+#signInText {
+    text-align: center;
+    font-family: Verdana;
+}
+#join {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 10%;
+    padding: 2%;
+    border-radius: 50px;
+    font-family: Verdana;
+    font-weight: bold;
+    opacity: 0.8;
+    box-shadow: 1px 1px 1px grey;
+}
+#googleButton {
+    border-color: grey;
+    border-width:1px;
+    background-color: transparent;
+    width: 50%;
+    height: 10%;
+    padding: 2%;
+    border-radius: 50px;
+    font-family: Verdana;
+    font-weight:lighter;
+    color: rgb(103, 102, 102)
+}
+.button {
+    align-items: center;
+}
+button:hover {
+    opacity: 0.7;
+}
+#join:hover {
+    opacity: 0.7;
+} 
+.button label {
+    padding: 2%;
+    margin-bottom: 2%;
+}
+hr{
+    width: 25%;
+    border-width: 1px;
+    height:1%;
+    border: none;
+    background-color: grey;
+}
+#or {
+    font-weight: light;
+    font-family: Verdana;
+}
+.lines {
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+}
 #text {
     text-align: center;
     font-family:'Franklin Gothic Medium';
@@ -34,15 +121,10 @@ label {
     display: block;
 }
 footer {
-    /*find way to put the footer at the bottom*/
     display: flex;
     flex-direction: column;
     font-family:'Franklin Gothic Medium';
     font-size: large;
     font-weight: 100;
     text-align: center;
-}
-footer a {
-    
-    text-decoration: none;
 }
