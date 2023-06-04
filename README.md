@@ -1,1 +1,2 @@
-A simple linkedin login page 'lookalike'
+A simple linkedin login page "LookALike" with HTML and CSS only
+
